@@ -60,6 +60,7 @@ executable dff
   -- other-extensions:
   -- Other library packages from which modules are imported.
   build-depends:
+    async,
     base,
     bytestring,
     containers,

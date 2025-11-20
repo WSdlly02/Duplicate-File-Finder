@@ -68,6 +68,7 @@
           {
             lib,
             mkDerivation,
+            async,
             base,
             bytestring,
             containers,
@@ -84,6 +85,7 @@
             isLibrary = false;
             isExecutable = true;
             executableHaskellDepends = [
+              async
               base
               bytestring
               containers
